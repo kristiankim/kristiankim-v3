@@ -1,21 +1,21 @@
+---
+title: Jekyll Starter
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 gems:
-  - bourbon
-  - neat
-  - octopress-autoprefixer
-
-# Structure configuration
+- bourbon
+- neat
+- octopress-autoprefixer
 source: source
 destination: build
-
 assets:
   cachebust: soft
-
-# Site settings
-title: Jekyll Starter
 description: Prototyping starter kit for Jekyll
-
-# Name of project on Github
-baseurl: /proteus-jekyll
-
-# Build settings
+baseurl: "/proteus-jekyll"
 markdown: kramdown
