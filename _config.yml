@@ -1,5 +1,5 @@
 ---
-title: Jekyll Starter
+title: Kristian Kim
 timezone: UTC
 collections:
   posts:
@@ -16,6 +16,6 @@ source: source
 destination: build
 assets:
   cachebust: soft
-description: Prototyping starter kit for Jekyll
+description: Kristian Kim's digital home.
 baseurl: "/proteus-jekyll"
 markdown: kramdown
