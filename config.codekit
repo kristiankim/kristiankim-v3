@@ -389,8 +389,8 @@
 	"\/source\/_includes\/footer.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/source\/_includes\/footer.haml",
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/source\/_includes\/footer.html",
@@ -402,20 +402,11 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/_includes\/footer.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/_includes\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/source\/_includes\/header.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/source\/_includes\/header.haml",
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/source\/_includes\/header.html",
@@ -426,15 +417,6 @@
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
-		},
-	"\/source\/_includes\/header.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/_includes\/header.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/source\/_layouts\/default.html": {
 		"fileType": 8192,
