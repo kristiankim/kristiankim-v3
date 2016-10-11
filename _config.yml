@@ -8,9 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: {}
-description: {}
-baseurl: ''
+baseurl: 
 url: http://kristiankim.com
 twitter_username: kristiankim
 github_username: kristiankim
