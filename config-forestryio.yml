@@ -1,19 +1,19 @@
 ---
----
-
----
-title: Your awesome title
-email: your-email@domain.com
+title: Kristian Kim
+email: hello@kristiankim.com
 description: |
-  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  I'm Kristian Kim. I design user interfaces, websites and apps that are functional and beautiful.
 baseurl: ''
-url: ''
-twitter_username: jekyllrb
-github_username: jekyll
+url: www.kristiankim.com
+twitter_username: kristiankim
+github_username: kristiankim
 markdown: kramdown
 theme: minima
 gems:
 - jekyll-feed
+- bourbon
+- neat
+- octopress-autoprefixer
 exclude:
 - Gemfile
 - Gemfile.lock
