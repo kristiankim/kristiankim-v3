@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Home
-tags: [Kristian Kim, portfolio]
+layout: default
+tags:
+- Kristian Kim
+- portfolio
 ---
 
 Content

@@ -1,5 +1,6 @@
 ---
-layout: default
 title: Works
-permalink: /works/
+permalink: "/works/"
+layout: default
 ---
+
