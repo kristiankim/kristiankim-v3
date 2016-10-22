@@ -1,0 +1,11 @@
+// Body part of the website
+
+section.main {
+    @include outer-container;
+    padding-top:70px;
+}
+
+section.post {
+    @include outer-container;
+    padding-top:70px;
+}

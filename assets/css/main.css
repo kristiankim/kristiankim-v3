@@ -4,6 +4,25 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1280px;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
 @font-face {
   font-family: "Akkurat";
   font-style: normal;
@@ -32,50 +51,71 @@ a {
 ol, ul {
   list-style: none; }
 
-.header {
-  max-width: 68em;
+.header .top {
+  max-width: 1280px;
   margin-left: auto;
-  margin-right: auto; }
-  .header::after {
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  display: block; }
+  .header .top::after {
     clear: both;
     content: "";
     display: table; }
-  .header .top {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2000;
-    display: block; }
-    .header .top::after {
-      clear: both;
-      content: "";
-      display: table; }
-    @media screen and (min-width: 769px) {
-      .header .top {
-        height: 70px;
-        margin-top: 0; } }
-  .header .menu {
-    float: right; }
-    .header .menu ul {
-      margin-top: 0px; }
-      .header .menu ul li {
-        float: left;
-        margin-left: 1em; }
-        .header .menu ul li a {
-          line-height: 51px;
-          height: 50px; }
-  .header a.header__logo {
-    font-size: 1.2em;
-    color: black;
-    font-weight: bold;
-    float: left;
-    line-height: 51px;
-    height: 50px; }
+  @media screen and (min-width: 769px) {
+    .header .top {
+      height: 70px;
+      margin-top: 0; } }
+.header .menu {
+  float: right; }
+  .header .menu ul {
+    margin-top: 0px; }
+    .header .menu ul li {
+      float: left;
+      margin-left: 1em; }
+      .header .menu ul li a {
+        line-height: 51px;
+        height: 50px; }
+.header a.header__logo {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+  float: left;
+  line-height: 51px;
+  height: 50px; }
+
+footer {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+section.main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px; }
+  section.main::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+section.post {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px; }
+  section.post::after {
+    clear: both;
+    content: "";
+    display: table; }
