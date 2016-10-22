@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kristian Kim
-<<<<<<< HEAD
 email: hello@kristiankim.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm Kristian Kim. I design user interfaces, websites and apps that are functional and beautiful.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.kristiankim.com" # the base hostname & protocol for your site, e.g. http://example.com
-=======
 timezone: UTC
 collections:
   posts:
@@ -29,15 +27,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: 
+baseurl:
 url: http://kristiankim.com
->>>>>>> e5a4e79c68fa7846e72872a53df8c18547895ff7
 twitter_username: kristiankim
 github_username:  kristiankim
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
   - bourbon

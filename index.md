@@ -1,5 +1,9 @@
 ---
 layout: default
-title: "Home"
+title: Home
 tags: [Kristian Kim, portfolio]
 ---
+
+Content
+
+##title

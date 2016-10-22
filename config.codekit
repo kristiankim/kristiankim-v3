@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_layouts\/post.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/post.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/about.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -126,11 +135,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/jekyll\/update\/2016\/10\/19\/welcome-to-jekyll.html": {
+	"\/_site\/jekyll\/update\/2016\/10\/20\/welcome-to-jekyll.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/jekyll\/update\/2016\/10\/19\/welcome-to-jekyll.html",
+		"inputAbbreviatedPath": "\/_site\/jekyll\/update\/2016\/10\/20\/welcome-to-jekyll.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -182,15 +191,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/about\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/base\/_base.scss": {
 		"createSourceMap": 0,
@@ -523,8 +523,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "kristiankim-v3",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "kristiankim-new",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_yellow"
 	},
 "projectSettings": {

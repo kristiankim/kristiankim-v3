@@ -3,3 +3,20 @@ html {
 
 *, *::after, *::before {
   box-sizing: inherit; }
+
+@font-face {
+  font-family: "Akkurat";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Akkurat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Regular.woff2") format("woff2"), url("../fonts/Akkurat-Regular.woff") format("woff"), url("../fonts/Akkurat-Regular.ttf") format("truetype"), url("../fonts/Akkurat-Regular.svg#Akkurat") format("svg"); }
+@font-face {
+  font-family: "Akkurat";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff2") format("woff2"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype"), url("../fonts/Akkurat-Bold.svg#Akkurat") format("svg"); }
+body {
+  font-family: "Akkurat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  -webkit-font-feature-settings: "pnum", "kern", false;
+  -moz-font-feature-settings: "pnum", "kern", false;
+  -ms-font-feature-settings: "pnum", "kern", false;
+  font-feature-settings: "pnum", "kern", false; }

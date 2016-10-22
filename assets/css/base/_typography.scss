@@ -1,0 +1,9 @@
+// Font
+@include font-face("Akkurat", "../fonts/Akkurat-Regular");
+@include font-face("Akkurat", "../fonts/Akkurat-Bold", bold);
+
+body {
+    font-family: 'Akkurat', $helvetica;
+    // Use proportional numbers, but not automatic kerning
+    @include font-feature-settings("pnum", "kern", false);
+}
