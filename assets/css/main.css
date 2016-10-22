@@ -8,15 +8,74 @@ html {
   font-family: "Akkurat";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Akkurat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Regular.woff2") format("woff2"), url("../fonts/Akkurat-Regular.woff") format("woff"), url("../fonts/Akkurat-Regular.ttf") format("truetype"), url("../fonts/Akkurat-Regular.svg#Akkurat") format("svg"); }
+  src: url("../fonts/Akkurat.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat.woff") format("woff"), url("../fonts/Akkurat.ttf") format("truetype"); }
 @font-face {
   font-family: "Akkurat";
   font-style: normal;
   font-weight: bold;
-  src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff2") format("woff2"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype"), url("../fonts/Akkurat-Bold.svg#Akkurat") format("svg"); }
+  src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Akkurat";
+  font-style: normal;
+  font-weight: light;
+  src: url("../fonts/AkkuratLight.eot?#iefix") format("embedded-opentype"), url("../fonts/AkkuratLight.woff") format("woff"), url("../fonts/AkkuratLight.ttf") format("truetype"); }
 body {
   font-family: "Akkurat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   -webkit-font-feature-settings: "pnum", "kern", false;
   -moz-font-feature-settings: "pnum", "kern", false;
   -ms-font-feature-settings: "pnum", "kern", false;
   font-feature-settings: "pnum", "kern", false; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  list-style: none; }
+
+.header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .header::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .header .top {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2000;
+    display: block; }
+    .header .top::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 769px) {
+      .header .top {
+        height: 70px;
+        margin-top: 0; } }
+  .header .menu {
+    float: right; }
+    .header .menu ul {
+      margin-top: 0px; }
+      .header .menu ul li {
+        float: left;
+        margin-left: 1em; }
+        .header .menu ul li a {
+          line-height: 51px;
+          height: 50px; }
+  .header a.header__logo {
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    float: left;
+    line-height: 51px;
+    height: 50px; }

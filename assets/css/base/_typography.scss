@@ -1,6 +1,7 @@
 // Font
-@include font-face("Akkurat", "../fonts/Akkurat-Regular");
-@include font-face("Akkurat", "../fonts/Akkurat-Bold", bold);
+@include font-face("Akkurat", "../fonts/Akkurat", $file-formats: eot woff ttf);
+@include font-face("Akkurat", "../fonts/Akkurat-Bold", bold, $file-formats: eot woff ttf);
+@include font-face("Akkurat", "../fonts/AkkuratLight", light, $file-formats: eot woff ttf);
 
 body {
     font-family: 'Akkurat', $helvetica;
