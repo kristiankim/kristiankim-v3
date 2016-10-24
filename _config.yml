@@ -1,4 +1,3 @@
----
 title: Kristian Kim
 timezone: UTC
 collections:
@@ -11,13 +10,16 @@ collections:
 email: hello@kristiankim.com
 description: 'I''m Kristian Kim. I design user interfaces, websites and apps that
   are functional and beautiful.
-
 '
-baseurl: 
+baseurl:
 url: http://kristiankim.com
 twitter_username: kristiankim
 github_username: kristiankim
 markdown: kramdown
+permalink: pretty
+# kramdown setting
+kramdown:
+  auto_ids: false
 gems:
 - jekyll-feed
 - bourbon
@@ -26,6 +28,8 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+
+# Owner setting
 owner:
   name: Kristian Kim
   avatar: avatar.png

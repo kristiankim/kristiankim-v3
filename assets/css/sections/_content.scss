@@ -2,7 +2,12 @@
 
 section.main {
     @include outer-container;
-    padding-top:70px;
+    padding-top:60px;
+
+    h2.blurb {
+        font-size: modular-scale(2);
+        font-weight: normal;
+    }
 }
 
 section.post {
