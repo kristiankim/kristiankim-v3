@@ -5,3 +5,21 @@ a {
 ol, ul {
     list-style: none;
 }
+
+section.container {
+    @include outer-container;
+    @include pad(0 default);
+}
+
+.container {
+    @include outer-container;
+}
+
+// To be deleted
+div {
+    background-color: $white-lilac;
+}
+section {
+    background-color: #f4f4f4;
+}
+// -- to be deleted

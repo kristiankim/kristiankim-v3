@@ -3,16 +3,13 @@
     //Top Navigation
 
     .top {
-        @include outer-container;
         @include padding(10px null 10px null);
         background-color: #fff;
         @include position(fixed, 0);
         z-index: 2000;
         display: block;
-        @include media(769px) {
-            height: 70px;
-            margin-top:0;
-        }
+        height: 70px;
+        margin-top:0;
     }
 
     .menu {

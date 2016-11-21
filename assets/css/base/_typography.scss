@@ -8,4 +8,17 @@ body {
     // Use proportional numbers, but not automatic kerning
     @include font-feature-settings("pnum", "kern", false);
     line-height: 1.6;
+    font-weight: normal;
+}
+
+h3.title {
+    color: $blue;
+}
+
+p {
+    color: $p;
+}
+
+a {
+    color: $link;
 }

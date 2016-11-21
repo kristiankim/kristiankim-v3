@@ -5,6 +5,10 @@ $grid-columns: 12;
 $max-width: 1280px;
 
 
+// Define breakpoints
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
+
 $visual-grid: true !default;
 $visual-grid-color: #eee !default;
 

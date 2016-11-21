@@ -31,23 +31,36 @@ body:before {
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/Akkurat.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat.woff") format("woff"), url("../fonts/Akkurat.ttf") format("truetype"); }
+
 @font-face {
   font-family: "Akkurat";
   font-style: normal;
   font-weight: bold;
   src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype"); }
+
 @font-face {
   font-family: "Akkurat";
   font-style: normal;
   font-weight: light;
   src: url("../fonts/AkkuratLight.eot?#iefix") format("embedded-opentype"), url("../fonts/AkkuratLight.woff") format("woff"), url("../fonts/AkkuratLight.ttf") format("truetype"); }
+
 body {
   font-family: "Akkurat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   -webkit-font-feature-settings: "pnum", "kern", false;
   -moz-font-feature-settings: "pnum", "kern", false;
   -ms-font-feature-settings: "pnum", "kern", false;
   font-feature-settings: "pnum", "kern", false;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-weight: normal; }
+
+h3.title {
+  color: #0BA6EC; }
+
+p {
+  color: #4e4e4e; }
+
+a {
+  color: #2351AF; }
 
 a {
   text-decoration: none; }
@@ -55,10 +68,32 @@ a {
 ol, ul {
   list-style: none; }
 
-.header .top {
+section.container {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 2.3999232025%; }
+  section.container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+div {
+  background-color: #E8E8E8; }
+
+section {
+  background-color: #f4f4f4; }
+
+.header .top {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fff;
@@ -68,15 +103,10 @@ ol, ul {
   bottom: 0;
   left: 0;
   z-index: 2000;
-  display: block; }
-  .header .top::after {
-    clear: both;
-    content: "";
-    display: table; }
-  @media screen and (min-width: 769px) {
-    .header .top {
-      height: 70px;
-      margin-top: 0; } }
+  display: block;
+  height: 70px;
+  margin-top: 0; }
+
 .header .menu {
   float: right; }
   .header .menu ul {
@@ -87,6 +117,7 @@ ol, ul {
       .header .menu ul li a {
         line-height: 51px;
         height: 50px; }
+
 .header a.header__logo {
   font-size: 1.2em;
   color: black;
@@ -95,27 +126,25 @@ ol, ul {
   line-height: 51px;
   height: 50px; }
 
-footer {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto; }
-  footer::after {
-    clear: both;
-    content: "";
-    display: table; }
-
 section.main {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 60px; }
-  section.main::after {
-    clear: both;
-    content: "";
-    display: table; }
   section.main h2.blurb {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 65.8666922658%;
     font-size: 1.776889em;
     font-weight: normal; }
+    section.main h2.blurb:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: max-width 480px 4) {
+      section.main h2.blurb {
+        float: left;
+        display: block;
+        margin-right: 2.3999232025%;
+        width: 31.7333845317%; }
+        section.main h2.blurb:last-child {
+          margin-right: 0; } }
 
 section.post {
   max-width: 1280px;
@@ -125,4 +154,4 @@ section.post {
   section.post::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
