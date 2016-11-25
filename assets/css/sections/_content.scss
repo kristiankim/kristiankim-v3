@@ -1,15 +1,22 @@
 // Body part of the website
 
 section.main {
+    @include outer-container;
     padding-top:60px;
 
-    h2.blurb {
-        @include span-columns(8);
-            @include media($mobile) { // As defined in _grid-settings.scss
-                @include span-columns(4);
-            }
-        font-size: modular-scale(2);
-        font-weight: normal;
+    .hero {
+        padding-top: 3em;
+        margin-bottom: 11.875em;
+        @include row();
+
+        h2.blurb {
+            @include span-columns(6);
+                @include media($mobile) { // As defined in _grid-settings.scss
+                    @include span-columns(4);
+                }
+            font-size: modular-scale(2);
+            font-weight: normal;
+        }
     }
 }
 

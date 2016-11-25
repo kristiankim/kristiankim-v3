@@ -6,20 +6,23 @@ ol, ul {
     list-style: none;
 }
 
-section.container {
-    @include outer-container;
-    @include pad(0 default);
-}
-
 .container {
     @include outer-container;
 }
 
-// To be deleted
-div {
-    background-color: $white-lilac;
+.wrapper {
+    @include clearfix;
 }
-section {
-    background-color: #f4f4f4;
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-// -- to be deleted
+
+hr {
+    height: 1px;
+    color: $light-gray;
+    background-color: $light-gray;
+    border: none;
+}

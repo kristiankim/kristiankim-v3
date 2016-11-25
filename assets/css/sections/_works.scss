@@ -1,0 +1,18 @@
+.featured {
+    @include outer-container;
+    padding-top: 3em;
+
+    .f-item {
+        margin-bottom: 8em;
+    }
+
+    .f-item_image {
+        @include span-columns(9);
+    }
+
+    .f-item_p {
+        @include span-columns(3);
+        margin-left: -4em;
+        padding-top: 2em;
+    }
+}

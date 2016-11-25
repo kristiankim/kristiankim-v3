@@ -3,6 +3,7 @@
     //Top Navigation
 
     .top {
+        @include outer-container;
         @include padding(10px null 10px null);
         background-color: #fff;
         @include position(fixed, 0);
@@ -20,7 +21,7 @@
 
             li {
             float: left;
-            margin-left: 1em;
+            margin-left: 1.5em;
 
             a {
                 line-height: 51px;

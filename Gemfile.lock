@@ -1,8 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
-    autoprefixer-rails (6.3.7)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    autoprefixer-rails (6.5.3)
       execjs
     bourbon (4.2.7)
       sass (~> 3.4)
@@ -43,7 +44,8 @@ GEM
       jekyll (~> 3.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    rb-fsevent (0.9.7)
+    public_suffix (2.0.4)
+    rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)

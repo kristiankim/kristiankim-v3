@@ -1,3 +1,21 @@
 // Footer
 footer {
+    @include outer-container;
+
+    ul {
+        @include padding(3em 0);
+        li {
+            float: right;
+            margin-left: 1em;
+        }
+    }
 }
+
+.sticky-left {
+        transform: rotate(90deg);
+        transform-origin: left top 0;
+        @include position(absolute, null null 3em 1.5em);
+        small {
+            color: $light-gray;
+        }
+    }

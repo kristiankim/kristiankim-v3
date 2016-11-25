@@ -9,7 +9,7 @@ $max-width: 1280px;
 $tablet: new-breakpoint(max-width 768px 8);
 $mobile: new-breakpoint(max-width 480px 4);
 
-$visual-grid: true !default;
+$visual-grid: false !default;
 $visual-grid-color: #eee !default;
 
 a {

@@ -7,57 +7,36 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.1334037311%, transparent 6.1334037311%, transparent 8.5333269335%, #eee 8.5333269335%, #eee 14.6667306646%, transparent 14.6667306646%, transparent 17.0666538671%, #eee 17.0666538671%, #eee 23.2000575982%, transparent 23.2000575982%, transparent 25.5999808006%, #eee 25.5999808006%, #eee 31.7333845317%, transparent 31.7333845317%, transparent 34.1333077342%, #eee 34.1333077342%, #eee 40.2667114652%, transparent 40.2667114652%, transparent 42.6666346677%, #eee 42.6666346677%, #eee 48.8000383988%, transparent 48.8000383988%, transparent 51.1999616012%, #eee 51.1999616012%, #eee 57.3333653323%, transparent 57.3333653323%, transparent 59.7332885348%, #eee 59.7332885348%, #eee 65.8666922658%, transparent 65.8666922658%, transparent 68.2666154683%, #eee 68.2666154683%, #eee 74.4000191994%, transparent 74.4000191994%, transparent 76.7999424018%, #eee 76.7999424018%, #eee 82.9333461329%, transparent 82.9333461329%, transparent 85.3332693354%, #eee 85.3332693354%, #eee 91.4666730665%, transparent 91.4666730665%, transparent 93.8665962689%, #eee 93.8665962689%, #eee 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1280px;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
+@font-face {
+  font-family: "Akkurat";
+  src: url("../fonts/Akkurat.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat.woff") format("woff"), url("../fonts/Akkurat.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400; }
 
 @font-face {
   font-family: "Akkurat";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Akkurat.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat.woff") format("woff"), url("../fonts/Akkurat.ttf") format("truetype"); }
+  src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype");
+  font-style: bold;
+  font-weight: 700; }
 
 @font-face {
   font-family: "Akkurat";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Akkurat";
-  font-style: normal;
-  font-weight: light;
-  src: url("../fonts/AkkuratLight.eot?#iefix") format("embedded-opentype"), url("../fonts/AkkuratLight.woff") format("woff"), url("../fonts/AkkuratLight.ttf") format("truetype"); }
+  src: url("../fonts/AkkuratLight.eot?#iefix") format("embedded-opentype"), url("../fonts/AkkuratLight.woff") format("woff"), url("../fonts/AkkuratLight.ttf") format("truetype");
+  font-style: light;
+  font-weight: 100; }
 
 body {
-  font-family: "Akkurat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  -webkit-font-feature-settings: "pnum", "kern", false;
-  -moz-font-feature-settings: "pnum", "kern", false;
-  -ms-font-feature-settings: "pnum", "kern", false;
-  font-feature-settings: "pnum", "kern", false;
+  font-family: "Akkurat", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   line-height: 1.6;
   font-weight: normal; }
 
 h3.title {
-  color: #0BA6EC; }
+  font-size: 1.5625em;
+  color: #C0C0C0;
+  font-weight: normal; }
 
 p {
-  color: #4e4e4e; }
+  color: #4A4A4A; }
 
 a {
   color: #2351AF; }
@@ -68,16 +47,6 @@ a {
 ol, ul {
   list-style: none; }
 
-section.container {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2.3999232025%; }
-  section.container::after {
-    clear: both;
-    content: "";
-    display: block; }
-
 .container {
   max-width: 1280px;
   margin-left: auto;
@@ -87,13 +56,26 @@ section.container {
     content: "";
     display: block; }
 
-div {
-  background-color: #E8E8E8; }
+.wrapper::after {
+  clear: both;
+  content: "";
+  display: block; }
 
-section {
-  background-color: #f4f4f4; }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+hr {
+  height: 1px;
+  color: #E8E8E8;
+  background-color: #E8E8E8;
+  border: none; }
 
 .header .top {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fff;
@@ -106,6 +88,10 @@ section {
   display: block;
   height: 70px;
   margin-top: 0; }
+  .header .top::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 .header .menu {
   float: right; }
@@ -113,7 +99,7 @@ section {
     margin-top: 0px; }
     .header .menu ul li {
       float: left;
-      margin-left: 1em; }
+      margin-left: 1.5em; }
       .header .menu ul li a {
         line-height: 51px;
         height: 50px; }
@@ -126,25 +112,63 @@ section {
   line-height: 51px;
   height: 50px; }
 
+footer {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: block; }
+  footer ul {
+    padding: 3em 0; }
+    footer ul li {
+      float: right;
+      margin-left: 1em; }
+
+.sticky-left {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  position: absolute;
+  bottom: 3em;
+  left: 1.5em; }
+  .sticky-left small {
+    color: #E8E8E8; }
+
 section.main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 60px; }
-  section.main h2.blurb {
-    float: left;
-    display: block;
-    margin-right: 2.3999232025%;
-    width: 65.8666922658%;
-    font-size: 1.776889em;
-    font-weight: normal; }
-    section.main h2.blurb:last-child {
-      margin-right: 0; }
-    @media screen and (min-width: max-width 480px 4) {
-      section.main h2.blurb {
-        float: left;
-        display: block;
-        margin-right: 2.3999232025%;
-        width: 31.7333845317%; }
-        section.main h2.blurb:last-child {
-          margin-right: 0; } }
+  section.main::after {
+    clear: both;
+    content: "";
+    display: block; }
+  section.main .hero {
+    padding-top: 3em;
+    margin-bottom: 11.875em;
+    display: block; }
+    section.main .hero::after {
+      clear: both;
+      content: "";
+      display: block; }
+    section.main .hero h2.blurb {
+      float: left;
+      display: block;
+      margin-right: 2.3999232025%;
+      width: 48.8000383988%;
+      font-size: 1.5625em;
+      font-weight: normal; }
+      section.main .hero h2.blurb:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: max-width 480px 4) {
+        section.main .hero h2.blurb {
+          float: left;
+          display: block;
+          margin-right: 2.3999232025%;
+          width: 31.7333845317%; }
+          section.main .hero h2.blurb:last-child {
+            margin-right: 0; } }
 
 section.post {
   max-width: 1280px;
@@ -155,3 +179,53 @@ section.post {
     clear: both;
     content: "";
     display: block; }
+
+.featured {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em; }
+  .featured::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .featured .f-item {
+    margin-bottom: 8em; }
+  .featured .f-item_image {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 74.4000191994%; }
+    .featured .f-item_image:last-child {
+      margin-right: 0; }
+  .featured .f-item_p {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 23.2000575982%;
+    margin-left: -4em;
+    padding-top: 2em; }
+    .featured .f-item_p:last-child {
+      margin-right: 0; }
+
+.grid-container {
+  display: block; }
+  .grid-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .grid-container .grid-3 {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 23.2000575982%;
+    margin-right: 0; }
+    .grid-container .grid-3:last-child {
+      margin-right: 0; }
+  .grid-container .grid-4 {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 31.7333845317%; }
+    .grid-container .grid-4:last-child {
+      margin-right: 0; }
