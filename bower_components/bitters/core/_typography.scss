@@ -3,7 +3,6 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  font-weight: normal;
 }
 
 h1,
@@ -18,15 +17,8 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
-h3.title {
-    font-size: modular-scale(2);
-    color: $gray;
-    font-weight: normal;
-}
-
 p {
   margin: 0 0 $small-spacing;
-  color: $dark-gray;
 }
 
 a {
