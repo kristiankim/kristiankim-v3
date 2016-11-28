@@ -6,7 +6,9 @@ tags:
 - UX Design
 - Desktop
 position: 0
-Featured Image: "/uploads/Rectangle_2.png"
+Featured Image:
+  alt: Mosaic Desktop App
+  image: "/uploads/Rectangle_2.png"
 layout: post
 ---
 
