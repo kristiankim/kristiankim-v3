@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  works:
+    title: Works
+    output: true
 email: hello@kristiankim.com
 description: Hi, I'm Kristian Kim. I love designing digital products that make people's
   lives easier and more fun.
