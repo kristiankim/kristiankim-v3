@@ -1,3 +1,4 @@
+---
 title: Kristian Kim
 timezone: UTC
 collections:
@@ -8,14 +9,14 @@ collections:
     title: Uploads
     output: true
 email: hello@kristiankim.com
-description: Hi, I'm Kristian Kim. I love designing digital products that make people's lives easier and more fun.
-baseurl:
+description: Hi, I'm Kristian Kim. I love designing digital products that make people's
+  lives easier and more fun.
+baseurl: 
 url: http://kristiankim.com
 twitter_username: kristiankim
 github_username: kristiankim
 markdown: kramdown
 permalink: pretty
-# kramdown setting
 kramdown:
   auto_ids: false
 gems:
@@ -26,8 +27,6 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-
-# Owner setting
 owner:
   name: Kristian Kim
   avatar: avatar.png
