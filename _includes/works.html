@@ -19,7 +19,7 @@
                 <img src="{{ post.featured_image.image }}" alt="{{ post.featured_image.alt }}" data-rjs="2">
             </div>
             <div class="f-item_p">
-                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                <h1 class="front_post_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
                 <p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
             </div><!-- end f-item-p -->
         </div><!-- end f-item -->
@@ -29,3 +29,4 @@
 
     </div><!-- end featured -->
 </div><!-- end f-works -->
+<hr>

@@ -377,6 +377,11 @@ section.post {
     padding-top: 2em; }
     .featured .f-item_p:last-child {
       margin-right: 0; }
+    .featured .f-item_p h1.front_post_title {
+      font-size: 2.44140625em;
+      font-weight: normal; }
+      .featured .f-item_p h1.front_post_title a {
+        color: #000; }
 
 .grid-container {
   display: block; }

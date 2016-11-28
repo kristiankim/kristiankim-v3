@@ -14,5 +14,13 @@
         @include span-columns(3);
         margin-left: -4em;
         padding-top: 2em;
+
+        h1.front_post_title {
+            font-size: modular-scale(4);
+            font-weight: normal;
+            a {
+                color: $black;
+            }
+        }
     }
 }
