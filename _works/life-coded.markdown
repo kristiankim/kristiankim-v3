@@ -7,7 +7,7 @@ tags:
 - Website Design
 - HTML/CSS
 position: 1
-Featured Image:
+featured_image:
   alt: Life Coded Website Design
   image: "/uploads/Rectangle_2_Copy.png"
 ---
