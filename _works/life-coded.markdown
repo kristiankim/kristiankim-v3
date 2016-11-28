@@ -6,7 +6,7 @@ categories:
 tags:
 - Website Design
 - HTML/CSS
-position: 2
+position: 1
 Featured Image: "/uploads/Rectangle_3.png"
 ---
 
