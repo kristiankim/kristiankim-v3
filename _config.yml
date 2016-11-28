@@ -14,7 +14,7 @@ collections:
 email: hello@kristiankim.com
 description: Hi, I'm Kristian Kim. I love designing digital products that make people's
   lives easier and more fun.
-baseurl: 
+baseurl:
 url: http://kristiankim.com
 twitter_username: kristiankim
 github_username: kristiankim
@@ -38,3 +38,10 @@ owner:
   github: kristiankim
   dribbble: kristiankim
   location: New York, NY
+defaults:
+   -
+    scope:
+      path: ""
+      type: "works"
+    values:
+      metadata: "Featured Image"

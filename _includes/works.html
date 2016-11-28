@@ -13,41 +13,17 @@
     {% endfor %}
 
     <div class="featured">
+        {% for post in site.works %}
         <div class="f-item wrapper">
             <div class="f-item_image">
-                <img src="assets/images/Rectangle_2.png" alt="" data-rjs="2">
+                <img src="{{ post.featured_image.image }}" alt="{{ post.featured_image.alt }}" data-rjs="2">
             </div>
             <div class="f-item_p">
-                <h1>Mosaic</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud.</p>
+                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                <p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
             </div><!-- end f-item-p -->
         </div><!-- end f-item -->
-
-        <div class="f-item wrapper">
-            <div class="f-item_image">
-                <img src="assets/images/Rectangle_2_Copy.png" alt="" data-rjs="2">
-            </div>
-            <div class="f-item_p">
-                <h1>The 8 App</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud.</p>
-            </div><!-- end f-item-p -->
-        </div><!-- end f-item -->
-
-        <div class="f-item wrapper">
-            <div class="f-item_image">
-                <img src="assets/images/Rectangle_3.png" alt="" data-rjs="2">
-            </div>
-            <div class="f-item_p">
-                <h1>Life Coded</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud.</p>
-            </div><!-- end f-item-p -->
-        </div><!-- end f-item -->
+        {% endfor %}
 
         <div class=""><a href="#" class="">See More</a></div>
 
