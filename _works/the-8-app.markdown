@@ -1,6 +1,7 @@
 ---
 title: The 8 App
 date: 2016-11-28 02:53:00 Z
+position: 1
 Featured Image: "/uploads/Rectangle_2_Copy.png"
 ---
 
