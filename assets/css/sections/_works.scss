@@ -1,6 +1,7 @@
 .featured {
     @include outer-container;
     padding-top: 3em;
+    margin-bottom: 3.75em;
 
     .f-item {
         margin-bottom: 8em;
