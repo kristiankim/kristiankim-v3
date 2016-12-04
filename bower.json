@@ -1,12 +1,12 @@
 {
-  "name": "my-new-project",
+  "name": "Kristian Kim",
   "authors": [
-    "John Doe <john@doe.com> (http://johndoe.com)"
+    "Kristian Kim <hello@kristiankim.com> (http://kristiankim.com)"
   ],
   "description": "CodeKit automatically generated this file. You should customize it according to: https://github.com/bower/spec/blob/master/json.md",
   "main": [
-  	"index.html",
-  	"main.js"
+    "index.html",
+    "main.js"
   ],
   "moduleType": [
     "amd",
@@ -19,10 +19,10 @@
     "none"
   ],
   "license": "MIT",
-  "homepage": "https://google.com",
+  "homepage": "http://kristiankim.com",
   "repository": {
-  	"type": "git",
-  	"url": "git://github.com/foo/bar.git"
+    "type": "git",
+    "url": "git://github.com/foo/bar.git"
   },
   "ignore": [
     "**/.*",
@@ -31,5 +31,10 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": true,
+  "dependencies": {
+    "bitters": "^1.5.0",
+    "jquery": "^3.1.1",
+    "fluidbox": "^2.0.4"
+  }
 }

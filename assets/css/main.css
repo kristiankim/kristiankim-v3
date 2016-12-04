@@ -25,6 +25,10 @@ html {
   font-style: light;
   font-weight: 100; }
 
+body {
+  padding: 0;
+  margin: 0; }
+
 a {
   text-decoration: none; }
 
@@ -353,16 +357,6 @@ section.main {
           section.main .hero h2.blurb:last-child {
             margin-right: 0; } }
 
-section.post {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 70px; }
-  section.post::after {
-    clear: both;
-    content: "";
-    display: block; }
-
 .featured {
   max-width: 1280px;
   margin-left: auto;
@@ -425,3 +419,39 @@ section.post {
     margin-bottom: 3.15em; }
     .grid-container li.list-item p {
       color: #C0C0C0; }
+
+section.post .post_cover {
+  position: relative;
+  height: 100vh;
+  background-color: #E8E8E8;
+  padding: 0;
+  width: 100%;
+  background-size: cover; }
+  section.post .post_cover .title_wrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto; }
+    section.post .post_cover .title_wrapper::after {
+      clear: both;
+      content: "";
+      display: block; }
+    section.post .post_cover .title_wrapper h1.post_title {
+      font-size: 5.9604644775em;
+      height: auto;
+      color: #fff;
+      padding-top: 140px;
+      font-weight: normal; }
+    section.post .post_cover .title_wrapper h1.post_title:after {
+      border-top: 5px;
+      border-color: #000;
+      width: 100px; }
+
+section.post .post_body {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em; }
+  section.post .post_body::after {
+    clear: both;
+    content: "";
+    display: block; }

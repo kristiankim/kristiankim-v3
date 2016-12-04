@@ -19,8 +19,3 @@ section.main {
         }
     }
 }
-
-section.post {
-    @include outer-container;
-    padding-top:70px;
-}

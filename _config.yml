@@ -16,6 +16,8 @@ description: Hi, I'm Kristian Kim. I love designing digital products that make p
   lives easier and more fun.
 baseurl:
 url: http://kristiankim.com
+script_dir: assets/script
+css_dir: assets/css
 twitter_username: kristiankim
 github_username: kristiankim
 markdown: kramdown
