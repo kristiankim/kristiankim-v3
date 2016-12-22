@@ -326,7 +326,7 @@ section.main {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px; }
+  padding-top: 70px; }
   section.main::after {
     clear: both;
     content: "";
