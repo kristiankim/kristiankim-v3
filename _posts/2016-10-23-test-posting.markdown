@@ -4,7 +4,7 @@ date: 2016-10-23 03:23:03 Z
 categories:
 - jekyll
 - update
-layout: post
+layout: blog
 ---
 
 IT WAS A FLEETING CONFRONTATION between two strangers that might have otherwise been forgotten.

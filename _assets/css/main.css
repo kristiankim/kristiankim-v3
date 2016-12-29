@@ -75,6 +75,22 @@ img {
 .fr {
   float: right; }
 
+.col_3 {
+  float: left;
+  display: block;
+  margin-right: 2.3999232025%;
+  width: 23.2000575982%; }
+  .col_3:last-child {
+    margin-right: 0; }
+
+.col_8 {
+  float: left;
+  display: block;
+  margin-right: 2.3999232025%;
+  width: 65.8666922658%; }
+  .col_8:last-child {
+    margin-right: 0; }
+
 button, [type='button'], [type='reset'], [type='submit'] {
   appearance: none;
   background-color: #2351AF;
@@ -273,7 +289,6 @@ hr {
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #fff;
   position: fixed;
   top: 0;
   right: 0;
@@ -455,3 +470,14 @@ section.post .post_body {
     clear: both;
     content: "";
     display: block; }
+  section.post .post_body p, section.post .post_body h1, section.post .post_body h2 {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 65.8666922658%;
+    float: right; }
+    section.post .post_body p:last-child, section.post .post_body h1:last-child, section.post .post_body h2:last-child {
+      margin-right: 0; }
+  section.post .post_body img {
+    width: 100%;
+    margin: 3em 0; }

@@ -4,4 +4,4 @@ permalink: "/blog/"
 layout: default
 ---
 
-This is blog page.
+{% include blog_index.html %}

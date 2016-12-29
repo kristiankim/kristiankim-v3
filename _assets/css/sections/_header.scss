@@ -5,7 +5,6 @@
     .top {
         @include outer-container;
         @include padding(10px null 10px null);
-        background-color: #fff;
         @include position(fixed, 0);
         z-index: 2000;
         display: block;

@@ -42,3 +42,16 @@ img {
 .fr {
     float: right;
 }
+
+.col_3 {
+    @include span-columns(3);
+}
+
+.col_8 {
+    @include span-columns(8);
+}
+
+
+
+
+

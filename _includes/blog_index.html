@@ -1,0 +1,10 @@
+<section class="blog_list">
+
+    <div class="blog_list_item">
+        {% for post in site.posts %}
+                <h1 class="front_post_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                <p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+        {% endfor %}
+
+    </div><!-- end blog_list_item -->
+</section><!-- end blog_list -->

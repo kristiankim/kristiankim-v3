@@ -30,5 +30,15 @@ section.post {
     .post_body {
         @include outer-container;
         margin-top: 5em;
+
+        p, h1, h2 {
+            @include span-columns(8);
+            float: right;
+        }
+
+        img {
+            width: 100%;
+            @include margin(3em 0);
+        }
     }
 }
