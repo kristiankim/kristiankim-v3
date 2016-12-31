@@ -1,6 +1,7 @@
 ---
 title: Digital Cookie
 date: 2016-12-31 21:26:00 Z
+featured_image: "/uploads/work_sample.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing. Quisque sit amet dui dui.
