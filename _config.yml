@@ -11,16 +11,22 @@ collections:
   works:
     title: Works
     output: true
+defaults:
+- scope:
+    path: ''
+    type: works
+  values:
+    metadata: Featured Image
 email: hello@kristiankim.com
 description: Hi, I'm Kristian Kim. I love designing digital products that make people's
   lives easier and more fun.
-baseurl:
+baseurl: 
 url: http://kristiankim.com
 sources:
-  - _assets/script
-  - _assets/css
-  - _assets/fonts
-  - _assets/images
+- _assets/script
+- _assets/css
+- _assets/fonts
+- _assets/images
 twitter_username: kristiankim
 github_username: kristiankim
 markdown: kramdown
@@ -44,10 +50,3 @@ owner:
   github: kristiankim
   dribbble: kristiankim
   location: New York, NY
-defaults:
-   -
-    scope:
-      path: ""
-      type: "works"
-    values:
-      metadata: "Featured Image"
