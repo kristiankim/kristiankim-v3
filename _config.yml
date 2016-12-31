@@ -16,8 +16,11 @@ description: Hi, I'm Kristian Kim. I love designing digital products that make p
   lives easier and more fun.
 baseurl:
 url: http://kristiankim.com
-script_dir: /_assets/script
-css_dir: /_assets/css
+sources:
+  - _assets/script
+  - _assets/css
+  - _assets/fonts
+  - _assets/images
 twitter_username: kristiankim
 github_username: kristiankim
 markdown: kramdown
@@ -29,6 +32,7 @@ gems:
 - bourbon
 - neat
 - octopress-autoprefixer
+- jekyll-assets
 exclude:
 - Gemfile
 - Gemfile.lock

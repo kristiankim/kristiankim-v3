@@ -9,19 +9,19 @@ html {
 
 @font-face {
   font-family: "Akkurat";
-  src: url("../fonts/Akkurat.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat.woff") format("woff"), url("../fonts/Akkurat.ttf") format("truetype");
+  src: url("/fonts/Akkurat.eot?#iefix") format("embedded-opentype"), url("/fonts/Akkurat.woff") format("woff"), url("/fonts/Akkurat.ttf") format("truetype");
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
   font-family: "Akkurat";
-  src: url("../fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akkurat-Bold.woff") format("woff"), url("../fonts/Akkurat-Bold.ttf") format("truetype");
+  src: url("/fonts/Akkurat-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Akkurat-Bold.woff") format("woff"), url("/fonts/Akkurat-Bold.ttf") format("truetype");
   font-style: bold;
   font-weight: 700; }
 
 @font-face {
   font-family: "Akkurat";
-  src: url("../fonts/AkkuratLight.eot?#iefix") format("embedded-opentype"), url("../fonts/AkkuratLight.woff") format("woff"), url("../fonts/AkkuratLight.ttf") format("truetype");
+  src: url("/fonts/AkkuratLight.eot?#iefix") format("embedded-opentype"), url("/fonts/AkkuratLight.woff") format("woff"), url("/fonts/AkkuratLight.ttf") format("truetype");
   font-style: light;
   font-weight: 100; }
 
@@ -283,6 +283,9 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
+.metadata {
+  color: #52C0C3; }
+
 .header .top {
   max-width: 1280px;
   margin-left: auto;
@@ -359,8 +362,9 @@ section.main {
       display: block;
       margin-right: 2.3999232025%;
       width: 48.8000383988%;
-      font-size: 1.5625em;
-      font-weight: normal; }
+      font-size: 2.44140625em;
+      font-weight: bold;
+      line-height: 1.5; }
       section.main .hero h2.blurb:last-child {
         margin-right: 0; }
       @media screen and (min-width: max-width 480px 4) {
@@ -457,9 +461,13 @@ section.post .post_cover {
       padding-top: 140px;
       font-weight: normal; }
     section.post .post_cover .title_wrapper h1.post_title:after {
-      border-top: 5px;
-      border-color: #000;
-      width: 100px; }
+      content: '';
+      width: 200px;
+      height: 10px;
+      display: block;
+      background-color: #fff;
+      margin-top: 1em;
+      position: relative; }
 
 section.post .post_body {
   max-width: 1280px;
@@ -481,3 +489,70 @@ section.post .post_body {
   section.post .post_body img {
     width: 100%;
     margin: 3em 0; }
+  section.post .post_body .side_col {
+    margin-bottom: 2em; }
+  section.post .post_body .side_title {
+    float: left;
+    display: block;
+    margin-right: 10.3444708803%;
+    width: 26.4370194131%; }
+    section.post .post_body .side_title:last-child {
+      margin-right: 0; }
+  section.post .post_body .side_list {
+    float: left;
+    display: block;
+    margin-right: 10.3444708803%;
+    width: 63.2185097066%; }
+    section.post .post_body .side_list:last-child {
+      margin-right: 0; }
+    section.post .post_body .side_list li {
+      margin-bottom: 1em; }
+
+section.work_list {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto; }
+  section.work_list::after {
+    clear: both;
+    content: "";
+    display: block; }
+  section.work_list .work_list_item {
+    margin-bottom: 3em; }
+    section.work_list .work_list_item::after {
+      clear: both;
+      content: "";
+      display: block; }
+    section.work_list .work_list_item .work_list_item_wrapper {
+      float: left;
+      display: block;
+      margin-right: 2.3999232025%;
+      width: 48.8000383988%;
+      height: 400px;
+      margin-bottom: 2em;
+      padding: 2em; }
+      section.work_list .work_list_item .work_list_item_wrapper:last-child {
+        margin-right: 0; }
+      section.work_list .work_list_item .work_list_item_wrapper .work_list_item_desc p {
+        width: 50%; }
+  section.work_list .more_work_list_item .more_work_wrapper {
+    margin-bottom: 3em; }
+    section.work_list .more_work_list_item .more_work_wrapper::after {
+      clear: both;
+      content: "";
+      display: block; }
+  section.work_list .more_work_list_item .more_work_image {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 65.8666922658%; }
+    section.work_list .more_work_list_item .more_work_image:last-child {
+      margin-right: 0; }
+    section.work_list .more_work_list_item .more_work_image img {
+      width: 100%; }
+  section.work_list .more_work_list_item .more_work_desc {
+    float: left;
+    display: block;
+    margin-right: 2.3999232025%;
+    width: 31.7333845317%; }
+    section.work_list .more_work_list_item .more_work_desc:last-child {
+      margin-right: 0; }

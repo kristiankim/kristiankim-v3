@@ -1,6 +1,6 @@
 @include font-face(
        "Akkurat",
-       "../fonts/Akkurat",
+       "/fonts/Akkurat",
        ("eot", "woff", "ttf")
      ) {
      font-style: normal;
@@ -9,7 +9,7 @@
 
 @include font-face(
        "Akkurat",
-       "../fonts/Akkurat-Bold",
+       "/fonts/Akkurat-Bold",
        ("eot", "woff", "ttf")
      ) {
      font-style: bold;
@@ -18,7 +18,7 @@
 
 @include font-face(
        "Akkurat",
-       "../fonts/AkkuratLight",
+       "/fonts/AkkuratLight",
        ("eot", "woff", "ttf")
      ) {
      font-style: light;

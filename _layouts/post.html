@@ -3,7 +3,7 @@
 
         <section class="post">
 
-          <article class="post_cover" style="background-image: url('http://twist-creative.com/wp-content/uploads/2015/06/ind_0011.jpg');">
+          <article class="post_cover" style="background-image: url('http://basic-form.de/wp-content/uploads/2015/08/Basic-Desk_7.jpg');">
             <div class="title_wrapper">
               <h1 class="post_title">{{ page.title }}</h1>
             </div>
@@ -11,13 +11,22 @@
 
           <article class="post_body">
             <aside class="side_col col_3">
-              <h3>This is side col.</h3>
+              <div class="side_title">
+                <h3>Role</h3>
+              </div>
+              <div class="side_list">
+                <ul>
+                  {% for tags in page.tags %}
+                    <li class="metadata">{{ tags }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
             </aside>
             <div class="post_article">
                {{ content }}
             </div>
         </article>
-
+        <hr>
         </section>
 
 {% include footer.html %}

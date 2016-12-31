@@ -20,9 +20,13 @@ section.post {
             }
 
             h1.post_title:after{
-                border-top: 5px;
-                border-color: $black;
-                width: 100px;
+                content: '';
+                width: 200px;
+                height: 10px;
+                display: block;
+                background-color: #fff;
+                margin-top: 1em;
+                position: relative;
             }
         }
     }
@@ -39,6 +43,21 @@ section.post {
         img {
             width: 100%;
             @include margin(3em 0);
+        }
+
+        .side_col {
+            margin-bottom: 2em;
+        }
+
+        .side_title {
+            @include span-columns(1 of 3);
+        }
+
+        .side_list {
+            @include span-columns(2 of 3);
+            li {
+                margin-bottom: 1em;
+            }
         }
     }
 }

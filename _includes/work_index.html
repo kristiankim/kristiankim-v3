@@ -1,20 +1,43 @@
 <section class="work_list">
 
     <div class="work_list_item">
+    <h2>Case Studies</h2>
         {% for post in site.works %}
-        <div class="f-item wrapper">
-            <div class="f-item_image">
-                <img src="{{ post.featured_image.image }}" alt="{{ post.featured_image.alt }}" data-rjs="2">
-            </div>
-            <div class="f-item_p">
-                <h1 class="front_post_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="work_list_item_wrapper" style="background: url({{ site.url }}/{{ post.featured_image.image }}); background-size: cover;">
+            <div class="work_list_item_desc">
+                <h1 class="work_list_item_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
                 <p>{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-            </div><!-- end f-item-p -->
-        </div><!-- end f-item -->
+            </div><!-- end work_list_item_desc -->
+        </div><!-- end work_list_item_wrapper -->
         {% endfor %}
-
-        <div class=""><a href="#" class="">See More</a></div>
-
     </div><!-- end work_list_item -->
+
+    <div class="more_work_list_item">
+        <h2>More Works</h2>
+        <div class="more_work_wrapper">
+            <div class="more_work_image"><img src="http://placehold.it/840x580"></div>
+            <div class="more_work_desc">
+                <h3>Queens Library (Redesign)</h3>
+                <small>Web Design</small>
+                <p>Nulla dictum tincidunt turpis eu consequat. Sed adipiscing eros a nisi dictum mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus urna lorem, porta sed congue ut, sollicitudin quis erat. Phasellus condimentum odio elit, in placerat augue congue ac.</p>
+            </div>
+        </div>
+        <div class="more_work_wrapper">
+            <div class="more_work_image"><img src="http://placehold.it/840x580"></div>
+            <div class="more_work_desc">
+                <h3>Queens Library (Redesign)</h3>
+                <small>Web Design</small>
+                <p>Nulla dictum tincidunt turpis eu consequat. Sed adipiscing eros a nisi dictum mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus urna lorem, porta sed congue ut, sollicitudin quis erat. Phasellus condimentum odio elit, in placerat augue congue ac.</p>
+            </div>
+        </div>
+        <div class="more_work_wrapper">
+            <div class="more_work_image"><img src="http://placehold.it/840x580"></div>
+            <div class="more_work_desc">
+                <h3>Queens Library (Redesign)</h3>
+                <small>Web Design</small>
+                <p>Nulla dictum tincidunt turpis eu consequat. Sed adipiscing eros a nisi dictum mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus urna lorem, porta sed congue ut, sollicitudin quis erat. Phasellus condimentum odio elit, in placerat augue congue ac.</p>
+            </div>
+        </div>
+    </div>
 </section><!-- end work_list -->
 <hr>
